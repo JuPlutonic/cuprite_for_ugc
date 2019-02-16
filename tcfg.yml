@@ -1,0 +1,17 @@
+#this file contains all the configuration for the test framework
+---
+
+#start with global configuration (JS_DRIVER was chrome)
+BROWSER: headless_chrome
+LOG_LEVEL: debug
+BASE_URL: https://ungoogled-software.github.io/ungoogled-chromium-binaries/
+JS_DRIVER: cuprite
+
+#and environment based overrides
+t_environments:
+  qa:
+    BASE_URL: https://ungoogled-software.github.io/ungoogled-chromium-binaries/
+
+  production:
+    BASE_URL: https://ungoogled-software.github.io/ungoogled-chromium-binaries/
+
