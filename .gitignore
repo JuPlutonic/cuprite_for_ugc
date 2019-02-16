@@ -1,3 +1,7 @@
+#test reports should never be checked in
+reports
+*.log
+path_ext
 *.gem
 *.rbc
 /.config
